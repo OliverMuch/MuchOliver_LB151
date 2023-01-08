@@ -20,14 +20,16 @@ Much
 
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
-* Tier 1 (Presentation): ...
+* Tier 1 (Presentation): Darstellung des Spieles (Webseite)
 * Tier 2 (Webserver):
-* Tier 3 (Application Server):
-* Tier 4 (Dataserver):
+* Tier 3 (Application Server): 
+* Tier 4 (Dataserver): Bestenliste 
 
 # 2 Technologie
 
-✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
+Für die Darstellung der Webseite werde ich HTML, CSS und JQuery verwenden. (1/2. Tier)
+Für die Auswertung der Wörter, Spielerleben oder des Gewonnenen Betrages werde ich Java verwenden (3. Tier)
+Die Bestenliste werde ich auf einer MySQL-Datenbank speichern (4. Tier)
 
 # 3 Datenbank
 
