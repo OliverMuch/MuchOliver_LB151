@@ -63,8 +63,14 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  |       Webseite geöffnet       |        Als Administrator anmelden |        Zugriff auf das System wird erteilt und Änderungen können vorgenommen werden.           |
+| 2.2  |       Administrator angemeldet       |      Erstellen einer neuen Phrase   |        Phrase wurde erfolgreich erstellt und ist im Spiel verfügbar.           |
+| 2.3  |       Administrator angemeldet       |        Bearbeiten einer bestehenden Phrase |        Phrase wurde erfolgreich bearbeitet und die Änderungen sind im Spiel sichtbar.       |
+| 2.4  |       Administrator angemeldet      |        Löschen einer bestehenden Phrase |        Phrase wurde erfolgreich gelöscht und ist nicht mehr im Spiel verfügbar.       |
+| 4.5  |       Webseite geöffnet       |        Als Administrator anmelden |        Zugriff auf das System wird erteilt und Änderungen können vorgenommen werden.           |
+| 1.1  |       Webseite geöffnet       |        Als Administrator anmelden |        Zugriff auf das System wird erteilt und Änderungen können vorgenommen werden.           |
+| 1.1  |       Webseite geöffnet       |        Als Administrator anmelden |        Zugriff auf das System wird erteilt und Änderungen können vorgenommen werden.           |
+| 1.1  |       Webseite geöffnet       |        Als Administrator anmelden |        Zugriff auf das System wird erteilt und Änderungen können vorgenommen werden.           |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
