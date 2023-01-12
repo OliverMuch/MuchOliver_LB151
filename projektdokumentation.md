@@ -33,18 +33,29 @@ Die Bestenliste werde ich auf einer MySQL-Datenbank speichern (4. Tier)
 
 # 3 Datenbank
 
-✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
+Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client dient ein Webserver. 
 
 # 4.1 User Stories
 
 ✍️ Formulieren Sie klare Anforderungen in der Form von User Stories (*„als … möchte ich … damit …“*) und zu jeder Anforderung mindestens einen dazugehörigen Testfall (in Kapitel 4.2). 
 
-✍️ Formulieren Sie weitere, eigene Anforderungen und Testfälle, wie Sie Ihre Applikation erweitern möchten. Geben Sie diesen statt einer Nummer einen Buchstaben (`A`, `B`, etc.)
-
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |  Muss           | Funktioinal |      Als Administrator möchte ich mich mit meinem Benutzernamen und Passwort anmelden können, damit ich Zugriff auf das System habe und Änderungen vornehmen kann.           |
+| 2    |  Muss           | Funktioinal |         Als Administrator möchte ich in der Lage sein, Phrasen und Rätsel zu erstellen, zu bearbeiten und zu löschen, damit ich den Inhalt des Spiels verwalten kann.        |
+| 3    |  Muss           | Funktioinal |   Als Administrator möchte ich in der Lage sein, Kategorien zu erstellen und Wörter und Fragen ihnen zuzuordnen, damit ich den Inhalt des Spiels organisieren kann.              |
+| 4    |  Muss           | Funktioinal |          Als Administrator möchte ich einzelne Einträge aus der Highscore-Liste löschen können, damit ich die Integrität der Rangliste aufrechterhalten kann.       |
+| 5    |  Muss           | Funktioinal |           Als Kunde möchte ich in der Lage sein, einen Webbrowser zu verwenden, um das Spiel zu spielen, damit ich von jedem Gerät mit Internetzugang auf das Spiel zugreifen kann.      |
+| 6    |  Muss           | Funktioinal |         Als Spieler möchte ich in der Lage sein, meinen Namen einzugeben, damit er auf der Highscore-Liste erscheint.        |
+| 7    |  Muss           | Funktioinal |         Als Spieler möchte ich meinen aktuellen Kontostand und die Anzahl meiner Leben jederzeit sehen können, damit ich meinen Fortschritt im Spiel verwalten kann.        |
+| 8    |  Muss           | Funktioinal |     Als Spieler möchte ich benachrichtigt werden, ob meine Antwort richtig oder falsch ist, damit ich aus meinen Fehlern lernen kann.            |
+| 9    |  Muss           | Funktioinal |         Als Spieler möchte ich die folgenden Informationen in der Highscore-Liste sehen: Rang, Spielername, Datum und Uhrzeit, Geldbetrag und Anzahl der gespielten Runden.        |
+| 10    |  Muss           | Funktioinal |     Als Spieler möchte ich, dass die Highscore-Liste nach Rang sortiert wird, der durch den Geldbetrag bestimmt wird, in aufsteigender Reihenfolge, damit ich sehen kann, wie ich im Vergleich zu anderen Spielern abschneide.            |
+| 11   |  Muss           | Funktioinal |    Als Spieler möchte ich sicherstellen, dass kein Wort oder keine Phrase mehr als einmal gestellt wird, damit das Spiel herausfordernd bleibt.             |
+| 12   |  Muss           | Funktioinal |      Als Spieler möchte ich in der Lage sein, das Spiel jederzeit zu beenden und meine Gewinne in die Highscore-Liste zu übertragen, damit ich meinen Fortschritt speichern kann.           |
+| 13   |  Muss           | Funktioinal |    Als Spieler möchte ich, dass das Spiel mit einer ausreichenden Anzahl von Wörtern und Phrasen gefüllt ist, damit das Spiel herausfordernd ist.             |
+| 14   |  Muss           | Funktioinal |    Als Spieler möchte ich, dass die Anzahl der gespielten Runden gezählt wird, damit ich meinen Fortschritt verfolgen kann.            |
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
