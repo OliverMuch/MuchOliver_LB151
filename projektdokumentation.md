@@ -4,10 +4,10 @@ Much
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | 0.0.2   |                                                              |
-|       | 0.0.3   |                                                              |
-|       | 0.0.4   |                                                              |
+|  5.01.2023    | 0.0.1   | Punkte 1-3 der Dokumentation ausgefüllt |
+|  12.01.2023   | 0.0.2   |     UserStories erstellt                                                         |
+|  13.01.2023    | 0.0.3   |   Testfälle erstellt                                                           |
+|  5.01.2023     | 0.0.4   |                                                              |
 |       | 0.0.5   |                                                              |
 |       | 0.0.6   |                                                              |
 |       | 1.0.0   |                                                              |
