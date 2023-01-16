@@ -18,7 +18,6 @@ Realisierung einer angepassten Variente des Quiz aus der Fernseshow "Glücksrad"
 
 # 1 Analyse
 
-✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
 * Tier 1 (Presentation): Darstellung des Spieles (Webseite)
 * Tier 2 (Webserver): Entgegennahme und Überprüfung der Daten
@@ -37,7 +36,6 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 # 4.1 User Stories
 
-✍️ Formulieren Sie klare Anforderungen in der Form von User Stories (*„als … möchte ich … damit …“*) und zu jeder Anforderung mindestens einen dazugehörigen Testfall (in Kapitel 4.2). 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
@@ -92,7 +90,8 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 # 5 Prototyp
 
-✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
+![Screen](https://user-images.githubusercontent.com/69577485/212721610-3ee46ad8-3bf2-4b59-98f9-ba1ac3a695c1.png)
+
 
 # 6 Implementation
 
