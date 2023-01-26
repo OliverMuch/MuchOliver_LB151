@@ -39,24 +39,24 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |  Muss           | Funktioinal |      Als Administrator möchte ich mich mit meinem Benutzernamen und Passwort anmelden können, damit ich Zugriff auf das System habe und Änderungen vornehmen kann.           |
-| 2    |  Muss           | Funktioinal |         Als Administrator möchte ich in der Lage sein, Phrasen und Rätsel zu erstellen, zu bearbeiten und zu löschen, damit ich den Inhalt des Spiels verwalten kann.        |
-| 3    |  Muss           | Funktioinal |   Als Administrator möchte ich in der Lage sein, Kategorien zu erstellen und Wörter und Fragen ihnen zuzuordnen, damit ich den Inhalt des Spiels organisieren kann.              |
-| 4    |  Muss           | Funktioinal |          Als Administrator möchte ich einzelne Einträge aus der Highscore-Liste löschen können, damit ich die Integrität der Rangliste aufrechterhalten kann.       |
-| 5    |  Muss           | Funktioinal |           Als Kunde möchte ich in der Lage sein, einen Webbrowser zu verwenden, um das Spiel zu spielen, damit ich von jedem Gerät mit Internetzugang auf das Spiel zugreifen kann.      |
-| 6    |  Muss           | Funktioinal |         Als Spieler möchte ich in der Lage sein, meinen Namen einzugeben, damit er auf der Highscore-Liste erscheint.        |
-| 7    |  Muss           | Funktioinal |         Als Spieler möchte ich meinen aktuellen Kontostand und die Anzahl meiner Leben jederzeit sehen können, damit ich meinen Fortschritt im Spiel verwalten kann.        |
-| 8    |  Muss           | Funktioinal |     Als Spieler möchte ich benachrichtigt werden, ob meine Antwort richtig oder falsch ist, damit ich aus meinen Fehlern lernen kann.            |
-| 9    |  Muss           | Funktioinal |         Als Spieler möchte ich die folgenden Informationen in der Highscore-Liste sehen: Rang, Spielername, Datum und Uhrzeit, Geldbetrag und Anzahl der gespielten Runden.        |
-| 10    |  Muss           | Funktioinal |     Als Spieler möchte ich, dass die Highscore-Liste nach Rang sortiert wird, der durch den Geldbetrag bestimmt wird, in aufsteigender Reihenfolge, damit ich sehen kann, wie ich im Vergleich zu anderen Spielern abschneide.            |
-| 11   |  Muss           | Funktioinal |    Als Spieler möchte ich sicherstellen, dass kein Wort oder keine Phrase mehr als einmal gestellt wird, damit das Spiel herausfordernd bleibt.             |
-| 12   |  Muss           | Funktioinal |      Als Spieler möchte ich in der Lage sein, das Spiel jederzeit zu beenden und meine Gewinne in die Highscore-Liste zu übertragen, damit ich meinen Fortschritt speichern kann.           |
-| 13   |  Muss           | Funktioinal |    Als Spieler möchte ich, dass das Spiel mit einer ausreichenden Anzahl von Wörtern und Phrasen gefüllt ist, damit das Spiel herausfordernd ist.             |
-| 14   |  Muss           | Funktioinal |    Als Spieler möchte ich, dass die Anzahl der gespielten Runden gezählt wird, damit ich meinen Fortschritt verfolgen kann.            |
-| A   |  Kann           | Funktioinal |    Als Spieler möchte ich den Schwierigkeitsgrad apassen können, damit das Spiel leichter bzw. schwieriger wird.         |
-| B   |  Muss           | Funktioinal |    Als Spieler möchte ich ein Feedback zum Spiel an den Entwickler senden können, damit er meine Verbesserungsvorschläge oder Ideen ansehen kann.        |
-| C   |  Muss           | Funktioinal |    Als Spieler möchte ich die Highscorliste herunterladen können, damit ich sie meinen Freunden schicken kann.        |
-| D   |  Kann           | Funktioinal |    Als Spieler möchte ich das Design (Farben) der Webseite ändern können, damit mir die Seite besser gefällt.         |
+| 1    |  Muss           | Funktional |      Als Administrator möchte ich mich mit meinem Benutzernamen und Passwort anmelden können, damit ich Zugriff auf das System habe und Änderungen vornehmen kann.           |
+| 2    |  Muss           | Funktional |         Als Administrator möchte ich in der Lage sein, Phrasen und Rätsel zu erstellen, zu bearbeiten und zu löschen, damit ich den Inhalt des Spiels verwalten kann.        |
+| 3    |  Muss           | Funktional |   Als Administrator möchte ich in der Lage sein, Kategorien zu erstellen und Wörter und Fragen ihnen zuzuordnen, damit ich den Inhalt des Spiels organisieren kann.              |
+| 4    |  Muss           | Funktional |          Als Administrator möchte ich einzelne Einträge aus der Highscore-Liste löschen können, damit ich die Integrität der Rangliste aufrechterhalten kann.       |
+| 5    |  Muss           | Funktional |           Als Kunde möchte ich in der Lage sein, einen Webbrowser zu verwenden, um das Spiel zu spielen, damit ich von jedem Gerät mit Internetzugang auf das Spiel zugreifen kann.      |
+| 6    |  Muss           | Funktional |         Als Spieler möchte ich in der Lage sein, meinen Namen einzugeben, damit er auf der Highscore-Liste erscheint.        |
+| 7    |  Muss           | Funktional |         Als Spieler möchte ich meinen aktuellen Kontostand und die Anzahl meiner Leben jederzeit sehen können, damit ich meinen Fortschritt im Spiel verwalten kann.        |
+| 8    |  Muss           | Funktional |     Als Spieler möchte ich benachrichtigt werden, ob meine Antwort richtig oder falsch ist, damit ich aus meinen Fehlern lernen kann.            |
+| 9    |  Muss           | Funktional |         Als Spieler möchte ich die folgenden Informationen in der Highscore-Liste sehen: Rang, Spielername, Datum und Uhrzeit, Geldbetrag und Anzahl der gespielten Runden.        |
+| 10    |  Muss           | Funktional |     Als Spieler möchte ich, dass die Highscore-Liste nach Rang sortiert wird, der durch den Geldbetrag bestimmt wird, in aufsteigender Reihenfolge, damit ich sehen kann, wie ich im Vergleich zu anderen Spielern abschneide.            |
+| 11   |  Muss           | Funktional |    Als Spieler möchte ich sicherstellen, dass kein Wort oder keine Phrase mehr als einmal gestellt wird, damit das Spiel herausfordernd bleibt.             |
+| 12   |  Muss           | Funktional |      Als Spieler möchte ich in der Lage sein, das Spiel jederzeit zu beenden und meine Gewinne in die Highscore-Liste zu übertragen, damit ich meinen Fortschritt speichern kann.           |
+| 13   |  Muss           | Funktional |    Als Spieler möchte ich, dass das Spiel mit einer ausreichenden Anzahl von Wörtern und Phrasen gefüllt ist, damit das Spiel herausfordernd ist.             |
+| 14   |  Muss           | Funktional |    Als Spieler möchte ich, dass die Anzahl der gespielten Runden gezählt wird, damit ich meinen Fortschritt verfolgen kann.            |
+| A   |  Kann           | Funktional |    Als Spieler möchte ich den Schwierigkeitsgrad apassen können, damit das Spiel leichter bzw. schwieriger wird.         |
+| B   |  Muss           | Funktional |    Als Spieler möchte ich ein Feedback zum Spiel an den Entwickler senden können, damit er meine Verbesserungsvorschläge oder Ideen ansehen kann.        |
+| C   |  Muss           | Funktional |    Als Spieler möchte ich die Highscorliste herunterladen können, damit ich sie meinen Freunden schicken kann.        |
+| D   |  Kann           | Funktional |    Als Spieler möchte ich das Design (Farben) der Webseite ändern können, damit mir die Seite besser gefällt.         |
 
  
 
