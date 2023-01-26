@@ -53,10 +53,10 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 | 12   |  Muss           | Funktioinal |      Als Spieler möchte ich in der Lage sein, das Spiel jederzeit zu beenden und meine Gewinne in die Highscore-Liste zu übertragen, damit ich meinen Fortschritt speichern kann.           |
 | 13   |  Muss           | Funktioinal |    Als Spieler möchte ich, dass das Spiel mit einer ausreichenden Anzahl von Wörtern und Phrasen gefüllt ist, damit das Spiel herausfordernd ist.             |
 | 14   |  Muss           | Funktioinal |    Als Spieler möchte ich, dass die Anzahl der gespielten Runden gezählt wird, damit ich meinen Fortschritt verfolgen kann.            |
-| A   |  Kann           | Funktioinal |    Als Spieler möchte ich den Schwierigkeitsgrad apassen können         |
-| B   |  Kann           | Funktioinal |    Als Spieler möchte ich ein Feedback zum Spiel an den Entwickler senden können         |
-| C   |  Kann           | Funktioinal |    Als Spieler möchte ich die Highscorliste herunterladen können         |
-| D   |  Kann           | Funktioinal |    Als Spieler möchte ich das Design (Farben) der Webseite ändern können         |
+| A   |  Kann           | Funktioinal |    Als Spieler möchte ich den Schwierigkeitsgrad apassen können, damit das Spiel leichter bzw. schwieriger wird.         |
+| B   |  Muss           | Funktioinal |    Als Spieler möchte ich ein Feedback zum Spiel an den Entwickler senden können, damit er meine Verbesserungsvorschläge oder Ideen ansehen kann.        |
+| C   |  Muss           | Funktioinal |    Als Spieler möchte ich die Highscorliste herunterladen können, damit ich sie meinen Freunden schicken kann.        |
+| D   |  Kann           | Funktioinal |    Als Spieler möchte ich das Design (Farben) der Webseite ändern können, damit mir die Seite besser gefällt.         |
 
  
 
@@ -65,26 +65,26 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |       Webseite geöffnet       |        Als Administrator anmelden |        Zugriff auf das System wird erteilt und Änderungen können vorgenommen werden.           |
-| 2.2  |       Administrator angemeldet       |      Erstellen einer neuen Phrase   |        Phrase wurde erfolgreich erstellt und ist im Spiel verfügbar.           |
-| 2.3  |       Administrator angemeldet       |        Bearbeiten einer bestehenden Phrase |        Phrase wurde erfolgreich bearbeitet und die Änderungen sind im Spiel sichtbar.       |
-| 2.4  |       Administrator angemeldet      |        Löschen einer bestehenden Phrase |        Phrase wurde erfolgreich gelöscht und ist nicht mehr im Spiel verfügbar.       |
-| 3.5  |       Administrator angemeldet      |        Kategorie erstellen und Wörter hinzufügen |   Kategorie wurde mit den hinzugefügten Wörtern erstellt       |
-| 4.6  |       Administrator angemeldet       |       Löschen eines Eintrags aus der Highscore-Liste |        Eintrag wurde erfolgreich gelöscht und ist nicht mehr in der Highscore-Liste sichtbar.          |
-| 5.7  |       Webbrowser geöffnet       |        Zugriff auf das Spiel über den Webbrowser |        Das Spiel ist erfolgreich geladen und kann gespielt werden.       |
-| 6.8  |       Spiel gestartet       |        Eingabe des Namens des Spielers |        Der eingegebene Name des Spielers wird auf der Highscore-Liste angezeigt.
-| 7.9  |       Spiel gestartet       |        Anzeigen des aktuellen Kontostands |        Der aktuelle Kontostand wird angezeigt.       |
-| 7.10    |       Spiel gestartet       |        Anzeigen der Anzahl der Leben |        Die Anzahl der Leben wird angezeigt.      |
-| 8.11  |       Spiel gestartet       |        Eingabe einer Antwort |  Es wird angezeigt, ob die Antwort richtig oder falsch war.      |
-| 9.12  |       Spiel gestartet       |        Anzeigen der Highscore-Liste |       Die Highscore-Liste wird angezeigt und enthält Rang, Spielername, Datum und Uhrzeit, Geldbetrag und Anzahl der gespielten Runden.      |
-| 9.13  |       Spiel gestartet       |        Anzeigen der sortierten Highscore-Liste |  Die Highscore-Liste ist nach Rang sortiert und wird in aufsteigender Reihenfolge angezeigt.  |
-| 10.14  |       Spiel gestartet       |  Wiederholtes Spielen eines Wortes oder einer Phrase |  Das Wort oder die Phrase wird nicht erneut gestellt. |
-| 11.15  |       Spiel gestartet       |       Beenden des Spiels |  Der aktuelle Gewinn wird in die Highscore-Liste übertragen. |
-| 12.16  |       Spiel gestartet       |  Spielstart | Das Spiel ist mit einer ausreichenden Anzahl von Wörtern und Phrasen gefüllt und bietet eine Herausforderung für den Spieler. |
-| 13.17  |       Spiel gestartet       | In die Einstellungen navigieren und die Schwierigkeit anpassen | Die Schwierigkeit wird angepasst und die Wortlänge ändert sich |
-| A.18  |       Spiel gestartet       | Form für das Feedback öffnen, ausfüllen und absenden | Der Entwickler erhält eine Email mit dem Feedback.  |
-| B.19  |       Spiel gestartet       | Spielen einer Runde | Die Anzahl der gespielten Runden wird gezählt und angezeigt. |
-| C.20  |       Spiel gestartet       | Auf die Highscorliste clicken und diese herunterladen | Die highscorlistewird als Textdokument gespeichert. |
-| D.21  |       Spiel gestartet       | In die Einstellungen navigieren und das gewünschte Design anklicken | Die Hintergrundfarbe wird angepasst. |
+| 2.1  |       Administrator angemeldet       |      Erstellen einer neuen Phrase   |        Phrase wurde erfolgreich erstellt und ist im Spiel verfügbar.           |
+| 2.2  |       Administrator angemeldet       |        Bearbeiten einer bestehenden Phrase |        Phrase wurde erfolgreich bearbeitet und die Änderungen sind im Spiel sichtbar.       |
+| 2.3  |       Administrator angemeldet      |        Löschen einer bestehenden Phrase |        Phrase wurde erfolgreich gelöscht und ist nicht mehr im Spiel verfügbar.       |
+| 3.1  |       Administrator angemeldet      |        Kategorie erstellen und Wörter hinzufügen |   Kategorie wurde mit den hinzugefügten Wörtern erstellt       |
+| 4.1  |       Administrator angemeldet       |       Löschen eines Eintrags aus der Highscore-Liste |        Eintrag wurde erfolgreich gelöscht und ist nicht mehr in der Highscore-Liste sichtbar.          |
+| 5.1  |       Webbrowser geöffnet       |        Zugriff auf das Spiel über den Webbrowser |        Das Spiel ist erfolgreich geladen und kann gespielt werden.       |
+| 6.1  |       Spiel gestartet       |        Eingabe des Namens des Spielers |        Der eingegebene Name des Spielers wird auf der Highscore-Liste angezeigt.
+| 7.1  |       Spiel gestartet       |        Anzeigen des aktuellen Kontostands |        Der aktuelle Kontostand wird angezeigt.       |
+| 7.2    |       Spiel gestartet       |        Anzeigen der Anzahl der Leben |        Die Anzahl der Leben wird angezeigt.      |
+| 8.1  |       Spiel gestartet       |        Eingabe einer Antwort |  Es wird angezeigt, ob die Antwort richtig oder falsch war.      |
+| 9.1  |       Spiel gestartet       |        Anzeigen der Highscore-Liste |       Die Highscore-Liste wird angezeigt und enthält Rang, Spielername, Datum und Uhrzeit, Geldbetrag und Anzahl der gespielten Runden.      |
+| 9.2  |       Spiel gestartet       |        Anzeigen der sortierten Highscore-Liste |  Die Highscore-Liste ist nach Rang sortiert und wird in aufsteigender Reihenfolge angezeigt.  |
+| 10.1  |       Spiel gestartet       |  Wiederholtes Spielen eines Wortes oder einer Phrase |  Das Wort oder die Phrase wird nicht erneut gestellt. |
+| 12.1  |       Spiel gestartet       |       Beenden des Spiels |  Der aktuelle Gewinn wird in die Highscore-Liste übertragen. |
+| 13.1  |       Spiel gestartet       |  Spielstart | Das Spiel ist mit einer ausreichenden Anzahl von Wörtern und Phrasen gefüllt und bietet eine Herausforderung für den Spieler. |
+| 14.1  |       Spiel gestartet       | Spielen einer Runde | Die Anzahl der gespielten Runden wird gezählt und angezeigt. |
+| A.1  |       Spiel gestartet       | In die Einstellungen navigieren und die Schwierigkeit anpassen | Die Schwierigkeit wird angepasst und die Wortlänge ändert sich |
+| B.1  |       Spiel gestartet       | Form für das Feedback öffnen, ausfüllen und absenden | Der Entwickler erhält eine Email mit dem Feedback.  |
+| C.1  |       Spiel gestartet       | Auf die Highscorliste clicken und diese herunterladen | Die highscorlistewird als Textdokument gespeichert. |
+| D.1  |       Spiel gestartet       | In die Einstellungen navigieren und das gewünschte Design anklicken | Die Hintergrundfarbe wird angepasst. |
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
