@@ -7,7 +7,7 @@ Much
 |  5.01.2023    | 0.0.1   | Punkte 1-3 der Dokumentation ausgefüllt |
 |  12.01.2023   | 0.0.2   |     UserStories erstellt                                                         |
 |  13.01.2023    | 0.0.3   |   Testfälle erstellt                                                           |
-|       | 0.0.4   |                                                              |
+|     26.01.2023  | 0.0.4   |     Tracer Bullet-Prototyp erstellt (GUI mit Datenbankfunktionalität)       |
 |       | 0.0.5   |                                                              |
 |       | 0.0.6   |                                                              |
 |       | 1.0.0   |                                                              |
