@@ -8,8 +8,8 @@ Much
 |  12.01.2023   | 0.0.2   |     UserStories erstellt                                                         |
 |  13.01.2023    | 0.0.3   |   Testfälle erstellt                                                           |
 |     26.01.2023  | 0.0.4   |     Tracer Bullet-Prototyp erstellt (GUI mit Datenbankfunktionalität)       |
-|   20.02.2023    | 0.0.5   |        Grobes Admin-Interface erstellt                                                   |
-|       | 0.0.6   |                                                              |
+|   20.02.2023    | 0.0.5   |        Datenbank erstellt und mit Programm verknüpft                                                |
+|   22.02.2023    | 0.0.6   |        Grobe Benutzeroberfläche und Admininterface erstellt                                              |
 |       | 1.0.0   |                                                              |
 
 # 0 Ihr Projekt
