@@ -77,8 +77,8 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 | 7.2    |       Spiel gestartet       |        Anzeigen der Anzahl der Leben |        Die Anzahl der Leben wird angezeigt.      |
 | 8.1  |       Spiel gestartet       |        Eingabe einer Antwort |  Es wird angezeigt, ob die Antwort richtig oder falsch war.      |
 | 9.1  |       Spiel gestartet       |        Anzeigen der Highscore-Liste |       Die Highscore-Liste wird angezeigt und enthält Rang, Spielername, Datum und Uhrzeit, Geldbetrag und Anzahl der gespielten Runden.      |
-| 9.2  |       Spiel gestartet       |        Anzeigen der sortierten Highscore-Liste |  Die Highscore-Liste ist nach Rang sortiert und wird in aufsteigender Reihenfolge angezeigt.  |
-| 10.1  |       Spiel gestartet       |  Wiederholtes Spielen eines Wortes oder einer Phrase |  Das Wort oder die Phrase wird nicht erneut gestellt. |
+| 10.1  |       Spiel gestartet       |        Anzeigen der sortierten Highscore-Liste |  Die Highscore-Liste ist nach Rang sortiert und wird in aufsteigender Reihenfolge angezeigt.  |
+| 11.1  |       Spiel gestartet       |  Wiederholtes Spielen eines Wortes oder einer Phrase |  Das Wort oder die Phrase wird nicht erneut gestellt. |
 | 12.1  |       Spiel gestartet       |       Beenden des Spiels |  Der aktuelle Gewinn wird in die Highscore-Liste übertragen. |
 | 13.1  |       Spiel gestartet       |  Spielstart | Das Spiel ist mit einer ausreichenden Anzahl von Wörtern und Phrasen gefüllt und bietet eine Herausforderung für den Spieler. |
 | 14.1  |       Spiel gestartet       | Spielen einer Runde | Die Anzahl der gespielten Runden wird gezählt und angezeigt. |
@@ -100,28 +100,30 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-|   2     |   22.02.2023    |        Admin Interface erstellt      |
-|        |       |              |
+|   5,6     |   26.01.2023   |        Prototyp erstellt     |
+|   2,3     |   22.02.2023    |        Admin Interface erstellt      |
 |     13   |   23.02.2023    |      Datenbank mit Phrasen befüllt        |
+|     7,8   |   23.02.2023    |      Funktionalität fertiggestellt       |
+|     4,9   |   1.03.2023    |      Highscoreliste erstellt (nicht vollständig)        |
 
 # 7 Projektdokumentation
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
 | 1    | ja / nein |                                           |
-| 2   | ja  |                                           |
-| 3    | ja  |                                           |
-| 4    | ja / nein |                                           |
-| 5    | ja |                                           |
-| 6   | ja  |                                           |
-| 7    | ja  |                                           |
-| 8    | ja / nein |                                           |
+| 2   | ja  |    Admin Interface --> Datensätze hinzufügen                                       |
+| 3    | ja  |   Admin Interface --> Datensätze hinzufügen              |
+| 4    | nein | Highscoreliste konnte nicht fertiggestellt werden --> Zeitmangel                                          |
+| 5    | ja |        Spiel kann auf Webbrowser gespielt werden                                   |
+| 6   | ja  |          index.xhtml, Zeile 28                                 |
+| 7    | ja  |         index.xhtml, Zeile 49/50                        |
+| 8    | ja  |          index.xhtml, Zeile 54                                 |
 | 9    | ja / nein |                                           |
-| 10    | ja / nein |                                           |
-| 11    |  nein |   Zeitmangel                                |
-| 12    | ja/ nein |                                           |
-| 13    | ja  |                                           |
-| 14    | ja / nein |                                           |
+| 10    |  nein |           Highscoreliste konnte nicht fertiggestellt werden --> Zeitmangel                                  |
+| 11    |  nein |            Zeitmangel                     |
+| 12    | ja |   index.xhtml, Zeile 61                                        |
+| 13    | ja  |           Datenbanktabelle "woerter"                 |
+| 14    | ja  |         index.xhtml, Zeile 58                                  |
 
 
 # 8 Testprotokoll
@@ -130,8 +132,24 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  |       |          |    Oliver Much    |
+| 2.1  |       |          |    Oliver Much    |
+| 2.2  |       |          |  Oliver Much      |
+| 2.3  |       |          |Oliver Much        |
+| 3.1  |       |          |Oliver Much        |
+| 4.1  |       |          |Oliver Much        |
+| 5.1  |       |          |Oliver Much        |
+| 6.1  |       |          |Oliver Much        |
+| 7.1  |       |          |Oliver Much        |
+| 7.2  |       |          |Oliver Much        |
+| 8.1  |       |          |Oliver Much        |
+| 9.1  |       |          |Oliver Much        |
+| 10.1  |       |          |Oliver Much        |
+| 11.1  |       |          |Oliver Much        |
+| 12.1  |       |          |Oliver Much        |
+| 13.1  |       |          |Oliver Much        |
+| 14.1  |       |          |Oliver Much        |
+
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
