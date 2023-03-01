@@ -10,6 +10,7 @@ Much
 |     26.01.2023  | 0.0.4   |     Tracer Bullet-Prototyp erstellt (GUI mit Datenbankfunktionalität)       |
 |   20.02.2023    | 0.0.5   |        Datenbank erstellt und mit Programm verknüpft                                                |
 |   22.02.2023    | 0.0.6   |        Grobe Benutzeroberfläche und Admininterface erstellt                                              |
+|     23.02.2023  | 0.0.7   |        Spiel fertiggestellt                                              |
 |       | 1.0.0   |                                                              |
 
 # 0 Ihr Projekt
@@ -99,14 +100,29 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
-| ...        |       |              |
+|   2     |   22.02.2023    |        Admin Interface erstellt      |
+|        |       |              |
+|     13   |   23.02.2023    |      Datenbank mit Phrasen befüllt        |
 
 # 7 Projektdokumentation
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
 | 1    | ja / nein |                                           |
-| ...  |           |                                           |
+| 2   | ja  |                                           |
+| 3    | ja  |                                           |
+| 4    | ja / nein |                                           |
+| 5    | ja |                                           |
+| 6   | ja  |                                           |
+| 7    | ja  |                                           |
+| 8    | ja / nein |                                           |
+| 9    | ja / nein |                                           |
+| 10    | ja / nein |                                           |
+| 11    |  nein |   Zeitmangel                                |
+| 12    | ja/ nein |                                           |
+| 13    | ja  |                                           |
+| 14    | ja / nein |                                           |
+
 
 # 8 Testprotokoll
 
