@@ -66,8 +66,7 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |       Webseite geöffnet       |        Auf "show all 'Tabelle' items" klicken |        Zugriff auf das System wird erteilt und Änderungen können vorgenommen werden.           |
-| 2.1  |       Administrator angemeldet       |      1. Auf "Show all woerter items" klicken
-2. Auf "Create new woerter" klicken 3. Wort, Kategorie und Schwierigkeit eingeben|        Phrase wurde erfolgreich erstellt und ist im Spiel verfügbar.           |
+| 2.1  |       Administrator angemeldet       |      1. Auf "Show all woerter items" klicken 2. Auf "Create new woerter" klicken 3. Wort, Kategorie und Schwierigkeit eingeben |        Phrase wurde erfolgreich erstellt und ist im Spiel verfügbar.           |
 | 2.2  |       Administrator angemeldet       |        1. Auf "Show all woerter items" klicken 2. Bei einer Phrase auf "Edit" klicken 3. Phrase bearbeiten |        Phrase wurde erfolgreich bearbeitet und die Änderungen sind im Spiel sichtbar.       |
 | 2.3  |       Administrator angemeldet      |        1. Auf "Show all woerter items" klicken 2. Bei einer Phrase auf "Delete" klicken |        Phrase wurde erfolgreich gelöscht und ist nicht mehr im Spiel verfügbar.       |
 | 3.1  |       Administrator angemeldet      |        1. Auf "Show all kategorie items" klicken 2. Kategorie hinzufügen 3. auf "Show all woerter items" klicken 4. Woerter erstellen und der Kategorie hinzufügen |   Kategorie wurde mit den hinzugefügten Wörtern erstellt       |
