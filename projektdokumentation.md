@@ -11,7 +11,7 @@ Much
 |   20.02.2023    | 0.0.5   |        Datenbank erstellt und mit Programm verknüpft                                                |
 |   22.02.2023    | 0.0.6   |        Grobe Benutzeroberfläche und Admininterface erstellt                                              |
 |     23.02.2023  | 0.0.7   |        Spiel fertiggestellt                                              |
-|       | 1.0.0   |                                                              |
+|    2.03.2023   | 1.0.0   |          Projektabgabe                                                    |
 
 # 0 Ihr Projekt
 
@@ -159,12 +159,9 @@ https://youtu.be/9Xwe20LVq8E
 
 Es konnten nicht alle Testfälle fehlerfrei durchgeführt werden. Aufgrund von Zeitmangel konnte ich die Highscoreliste nicht vollständig fertigstellen. Der Spielername und sein Guthaben sollten beim klicken auf "In Highscoreliste speichern" zwar in der Datenbank gespeichert werden, die Daten werden jedoch nicht ausgelesen oder angezeigt.  
 
-# 9 `README.md`
-
-✍️ Beschreiben Sie ausführlich in einer README.md, wie Ihre Applikation gestartet und ausgeführt wird. Legen Sie eine geeignete Möglichkeit (Skript, Export, …) bei, Ihre Datenbank wiederherzustellen.
 
 # 10 Allgemeines
 
 - [ X ] Ich habe die Rechtschreibung überprüft
 - [ X ] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
-- [ ] Ich habe alle mit ✍️ markierten Teile ersetzt
+- [ X ] Ich habe alle mit ✍️ markierten Teile ersetzt
