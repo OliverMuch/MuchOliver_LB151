@@ -87,7 +87,6 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 | C.1  |       Spiel gestartet       | Auf die Highscorliste clicken und diese herunterladen | Die highscorlistewird als Textdokument gespeichert. |
 | D.1  |       Spiel gestartet       | In die Einstellungen navigieren und das gewünschte Design anklicken | Die Hintergrundfarbe wird angepasst. |
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 # 5 Prototyp
 
@@ -96,7 +95,6 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 # 6 Implementation
 
-✍️ Halten Sie fest, wann Sie welche User Story bearbeitet haben
 
 | User Story | Datum | Beschreibung |
 | ---------- | ----- | ------------ |
@@ -155,7 +153,7 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 | 14.1  |  2.03.2023     |   OK       |Oliver Much        |
 
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Es konnten nicht alle Testfälle fehlerfrei durchgeführt werden. Aufgrund von Zeitmangel konnte ich die Highscoreliste nicht vollständig fertigstellen. Der Spielername und sein Guthaben sollten beim klicken auf "In Highscoreliste speichern" zwar in der Datenbank gespeichert werden, die Daten werden jedoch  nicht ausgelesen oder angezeigt.  
 
 # 9 `README.md`
 
