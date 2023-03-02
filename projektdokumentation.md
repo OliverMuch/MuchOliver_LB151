@@ -15,7 +15,7 @@ Much
 
 # 0 Ihr Projekt
 
-Realisierung einer angepassten Variante des Quiz aus der Fernseshow "Glücksrad"
+Realisierung einer angepassten Variante des Quiz aus der Fernsehshow "Glücksrad"
 
 # 1 Analyse
 
@@ -28,12 +28,12 @@ Realisierung einer angepassten Variante des Quiz aus der Fernseshow "Glücksrad"
 # 2 Technologie
 
 Für die Darstellung der Webseite werde ich HTML, CSS und JQuery verwenden. (1/2. Tier)
-Für die Auswertung der Wörter, Spielerleben oder des Gewonnenen Betrages werde ich Java verwenden (3. Tier)
+Für die Auswertung der Wörter, Spielerleben oder des gewonnenen Betrages werde ich Java verwenden (3. Tier)
 Die Bestenliste werde ich auf einer MySQL-Datenbank speichern (4. Tier)
 
 # 3 Datenbank
 
-Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client dient ein Webserver. 
+Ich verwende MySQL um die Daten auf einer Datenbank zu speichern. Als Client dient ein Webserver. 
 
 # 4.1 User Stories
 
@@ -153,7 +153,7 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 | 14.1  |  2.03.2023     |   OK       |Oliver Much        |
 
 
-Es konnten nicht alle Testfälle fehlerfrei durchgeführt werden. Aufgrund von Zeitmangel konnte ich die Highscoreliste nicht vollständig fertigstellen. Der Spielername und sein Guthaben sollten beim klicken auf "In Highscoreliste speichern" zwar in der Datenbank gespeichert werden, die Daten werden jedoch  nicht ausgelesen oder angezeigt.  
+Es konnten nicht alle Testfälle fehlerfrei durchgeführt werden. Aufgrund von Zeitmangel konnte ich die Highscoreliste nicht vollständig fertigstellen. Der Spielername und sein Guthaben sollten beim klicken auf "In Highscoreliste speichern" zwar in der Datenbank gespeichert werden, die Daten werden jedoch nicht ausgelesen oder angezeigt.  
 
 # 9 `README.md`
 
@@ -161,6 +161,6 @@ Es konnten nicht alle Testfälle fehlerfrei durchgeführt werden. Aufgrund von Z
 
 # 10 Allgemeines
 
-- [ ] Ich habe die Rechtschreibung überprüft
-- [ ] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
+- [ X ] Ich habe die Rechtschreibung überprüft
+- [ X ] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
 - [ ] Ich habe alle mit ✍️ markierten Teile ersetzt
