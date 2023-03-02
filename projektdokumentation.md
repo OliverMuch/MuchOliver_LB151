@@ -141,16 +141,20 @@ https://youtu.be/9Xwe20LVq8E
 | 3.1  |  2.03.2023     |  OK     |Oliver Much        |
 | 4.1  |  2.03.2023     |  NOK   |Oliver Much        |
 | 5.1  |  2.03.2023     |  OK    |Oliver Much        |
-| 6.1  |  2.03.2023     |          |Oliver Much        |
+| 6.1  |  2.03.2023     |  OK      |Oliver Much        |
 | 7.1  |  2.03.2023     |  OK     |Oliver Much        |
 | 7.2  |  2.03.2023     |  OK   |Oliver Much        |
 | 8.1  |  2.03.2023     |  OK |Oliver Much        |
-| 9.1  |  2.03.2023     |          |Oliver Much        |
-| 10.1  |  2.03.2023     |          |Oliver Much        |
+| 9.1  |  2.03.2023     |   NOK       |Oliver Much        |
+| 10.1  |  2.03.2023     |    NOK      |Oliver Much        |
 | 11.1  |  2.03.2023     |   NOK       |Oliver Much        |
-| 12.1  |  2.03.2023     |          |Oliver Much        |
+| 12.1  |  2.03.2023     |    NOK      |Oliver Much        |
 | 13.1  |  2.03.2023     |   OK    |Oliver Much        |
 | 14.1  |  2.03.2023     |   OK       |Oliver Much        |
+| A.1  |  2.03.2023     |   NOK       |Oliver Much        |
+| B.1  |  2.03.2023     |   NOK       |Oliver Much        |
+| C.1  |  2.03.2023     |   NOK       |Oliver Much        |
+| D.1  |  2.03.2023     |   NOK       |Oliver Much        |
 
 
 Es konnten nicht alle Testfälle fehlerfrei durchgeführt werden. Aufgrund von Zeitmangel konnte ich die Highscoreliste nicht vollständig fertigstellen. Der Spielername und sein Guthaben sollten beim klicken auf "In Highscoreliste speichern" zwar in der Datenbank gespeichert werden, die Daten werden jedoch nicht ausgelesen oder angezeigt.  
