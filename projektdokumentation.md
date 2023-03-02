@@ -130,7 +130,7 @@ Ich verwende MySQL um die Daten auf einer Datenbank zu speichern. Als Client die
 
 # 8 Testprotokoll
 
-✍️ Fügen Sie hier den Link zu dem Video ein, welches den Testdurchlauf dokumentiert.
+https://youtu.be/9Xwe20LVq8E 
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
