@@ -65,11 +65,12 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |       Webseite geöffnet       |        Als Administrator anmelden |        Zugriff auf das System wird erteilt und Änderungen können vorgenommen werden.           |
-| 2.1  |       Administrator angemeldet       |      Erstellen einer neuen Phrase   |        Phrase wurde erfolgreich erstellt und ist im Spiel verfügbar.           |
-| 2.2  |       Administrator angemeldet       |        Bearbeiten einer bestehenden Phrase |        Phrase wurde erfolgreich bearbeitet und die Änderungen sind im Spiel sichtbar.       |
-| 2.3  |       Administrator angemeldet      |        Löschen einer bestehenden Phrase |        Phrase wurde erfolgreich gelöscht und ist nicht mehr im Spiel verfügbar.       |
-| 3.1  |       Administrator angemeldet      |        Kategorie erstellen und Wörter hinzufügen |   Kategorie wurde mit den hinzugefügten Wörtern erstellt       |
+| 1.1  |       Webseite geöffnet       |        Auf "show all 'Tabelle' items" klicken |        Zugriff auf das System wird erteilt und Änderungen können vorgenommen werden.           |
+| 2.1  |       Administrator angemeldet       |      1. Auf "Show all woerter items" klicken
+2. Auf "Create new woerter" klicken 3. Wort, Kategorie und Schwierigkeit eingeben|        Phrase wurde erfolgreich erstellt und ist im Spiel verfügbar.           |
+| 2.2  |       Administrator angemeldet       |        1. Auf "Show all woerter items" klicken 2. Bei einer Phrase auf "Edit" klicken 3. Phrase bearbeiten |        Phrase wurde erfolgreich bearbeitet und die Änderungen sind im Spiel sichtbar.       |
+| 2.3  |       Administrator angemeldet      |        1. Auf "Show all woerter items" klicken 2. Bei einer Phrase auf "Delete" klicken |        Phrase wurde erfolgreich gelöscht und ist nicht mehr im Spiel verfügbar.       |
+| 3.1  |       Administrator angemeldet      |        1. Auf "Show all kategorie items" klicken 2. Kategorie hinzufügen 3. auf "Show all woerter items" klicken 4. Woerter erstellen und der Kategorie hinzufügen |   Kategorie wurde mit den hinzugefügten Wörtern erstellt       |
 | 4.1  |       Administrator angemeldet       |       Löschen eines Eintrags aus der Highscore-Liste |        Eintrag wurde erfolgreich gelöscht und ist nicht mehr in der Highscore-Liste sichtbar.          |
 | 5.1  |       Webbrowser geöffnet       |        Zugriff auf das Spiel über den Webbrowser |        Das Spiel ist erfolgreich geladen und kann gespielt werden.       |
 | 6.1  |       Spiel gestartet       |        Eingabe des Namens des Spielers |        Der eingegebene Name des Spielers wird auf der Highscore-Liste angezeigt.
@@ -110,7 +111,7 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 | US-№ | Erledigt? | Entsprechende Code-Dateien oder Erklärung |
 | ---- | --------- | ----------------------------------------- |
-| 1    | ja / nein |                                           |
+| 1    | nein |     Admininterface kann jederzeit geöffnet werden                                      |
 | 2   | ja  |    Admin Interface --> Datensätze hinzufügen                                       |
 | 3    | ja  |   Admin Interface --> Datensätze hinzufügen              |
 | 4    | nein | Highscoreliste konnte nicht fertiggestellt werden --> Zeitmangel                                          |
@@ -118,12 +119,16 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 | 6   | ja  |          index.xhtml, Zeile 28                                 |
 | 7    | ja  |         index.xhtml, Zeile 49/50                        |
 | 8    | ja  |          index.xhtml, Zeile 54                                 |
-| 9    | ja / nein |                                           |
+| 9    | nein |      Highscoreliste nicht sichtbar (nicht fertiggestellt)                                     |
 | 10    |  nein |           Highscoreliste konnte nicht fertiggestellt werden --> Zeitmangel                                  |
 | 11    |  nein |            Zeitmangel                     |
 | 12    | ja |   index.xhtml, Zeile 61                                        |
 | 13    | ja  |           Datenbanktabelle "woerter"                 |
 | 14    | ja  |         index.xhtml, Zeile 58                                  |
+| A    | nein  |         Der Schwierigkeitsgradist für jedes Wort schon definiert                               |
+| B    | ja  |         index.xhtml, Zeile 16 / GameBean.java, Zeile 309ff.                                  |
+| C    | nein  |         Zeitmangel                                  |
+| D    | nein  |         Zeitmangel                                  |
 
 
 # 8 Testprotokoll
@@ -132,23 +137,23 @@ Ich verwende MySql um die Daten auf einer Datenbank zu speichern. Als Client die
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |    Oliver Much    |
-| 2.1  |       |          |    Oliver Much    |
-| 2.2  |       |          |  Oliver Much      |
-| 2.3  |       |          |Oliver Much        |
-| 3.1  |       |          |Oliver Much        |
-| 4.1  |       |          |Oliver Much        |
-| 5.1  |       |          |Oliver Much        |
-| 6.1  |       |          |Oliver Much        |
-| 7.1  |       |          |Oliver Much        |
-| 7.2  |       |          |Oliver Much        |
-| 8.1  |       |          |Oliver Much        |
-| 9.1  |       |          |Oliver Much        |
-| 10.1  |       |          |Oliver Much        |
-| 11.1  |       |          |Oliver Much        |
-| 12.1  |       |          |Oliver Much        |
-| 13.1  |       |          |Oliver Much        |
-| 14.1  |       |          |Oliver Much        |
+| 1.1  |    2.03.2023   |  OK        |    Oliver Much    |
+| 2.1  |   2.03.2023    |  OK        |    Oliver Much    |
+| 2.2  |  2.03.2023     |  OK       |  Oliver Much      |
+| 2.3  |  2.03.2023     |  OK   |Oliver Much        |
+| 3.1  |  2.03.2023     |  OK     |Oliver Much        |
+| 4.1  |  2.03.2023     |  NOK   |Oliver Much        |
+| 5.1  |  2.03.2023     |  OK    |Oliver Much        |
+| 6.1  |  2.03.2023     |          |Oliver Much        |
+| 7.1  |  2.03.2023     |  OK     |Oliver Much        |
+| 7.2  |  2.03.2023     |  OK   |Oliver Much        |
+| 8.1  |  2.03.2023     |  OK |Oliver Much        |
+| 9.1  |  2.03.2023     |          |Oliver Much        |
+| 10.1  |  2.03.2023     |          |Oliver Much        |
+| 11.1  |  2.03.2023     |   NOK       |Oliver Much        |
+| 12.1  |  2.03.2023     |          |Oliver Much        |
+| 13.1  |  2.03.2023     |   OK    |Oliver Much        |
+| 14.1  |  2.03.2023     |   OK       |Oliver Much        |
 
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
